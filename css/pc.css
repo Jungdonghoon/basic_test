@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* NHN Technology Services UIT Development Center */
+
+/* Common */
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+body,input,textarea,select,button,table{font-family:'돋움',Dotum, Helvetica,sans-serif;font-size:12px;color:#939393}
+img,fieldset{border:0}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+a{text-decoration:none}
+a:hover,a:active,a:focus{text-decoration:underline}
+.blind{overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:0}
+.main_image{border-radius:50%}
+.mar{position:absolute;left:44%;bottom:38%}
+.mar_font{position:absolute;left:46%;bottom:28%;font-size:15px}
+.mar_font2{position:absolute;left:36%;bottom:18%;font-size:15px}
+#wrap{width:800px;margin:0 auto}
+#header{height:200px;background:#00cccb;margin:5px;color:#fff; position: relative;}
+#container{background:#ebebeb;margin:5px}
+#container:after{clear:both;display:block;content:''}
+#container .lnb{float:left;width:300px;background:#ebebeb;margin:27px}
+#container .lnb .nav{float:left;width:290px;background:#fff;font-family:'돋움',Dotum, Helvetica,sans-serif;font-size:20px;color:#939393}
+#content1{float:left;width:400px;background:#fff;overflow:hidden;margin-top: 27px;margin-bottom: 25px}
+#content2{float:left;width:400px;background:#fff;overflow:hidden;margin-top: 27px;margin-bottom: 25px}
+#content3{float:left;width:400px;background:#fff;overflow:hidden;margin-top: 27px;margin-bottom: 25px}
+#content4{float:left;width:400px;background:#fff;overflow:hidden;margin-top: 27px;margin-bottom: 25px}
+#footer{height:150px;background: #ebebeb;margin:5px}
+#audio1{float:left;width:310px;height:50px;background:#fff;margin-left: 45px}
+#audio2{float:left;width:310px;height:50px;background:#fff;margin-left: 45px}
+#audio3{float:left;width:310px;height:50px;background:#fff;margin-left: 45px}
+#audio4{float:left;width:310px;height:50px;background:#fff;margin-left: 45px}
